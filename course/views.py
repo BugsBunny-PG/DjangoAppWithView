@@ -5,3 +5,6 @@ from django.http import HttpResponse
 def learn_django(request): #request is a http requeat object
     
     return HttpResponse('<h1>Hello django</h1>')
+
+def index(request):
+    return HttpResponse("<B>Welcome to Home  Page</B>")

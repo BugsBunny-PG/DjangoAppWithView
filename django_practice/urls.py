@@ -20,5 +20,6 @@ from course import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('',views.index),
     path('learndj/',views.learn_django)  # when you hit this url in webbrowser this learn_django function will run
 ]
